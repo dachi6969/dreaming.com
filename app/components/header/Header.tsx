@@ -148,6 +148,7 @@ const Header = () => {
               } else {
                 return (
                   <ListItem
+                    sx={{ cursor: "pointer" }}
                     key={index}
                     onClick={() => {
                       setDrawerOpen(false);
