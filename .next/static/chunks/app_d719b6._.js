@@ -355,7 +355,8 @@ const Weather = ({ open, onClose })=>{
                     gap: 3,
                     backgroundImage: 'url("rainy.jpg")',
                     backgroundSize: "cover",
-                    backgroundPosition: "center"
+                    backgroundPosition: "center",
+                    scrollbarWidth: "none"
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -375,7 +376,7 @@ const Weather = ({ open, onClose })=>{
                         children: "Back"
                     }, void 0, false, {
                         fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                        lineNumber: 103,
+                        lineNumber: 104,
                         columnNumber: 11
                     }, this),
                     loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -388,7 +389,7 @@ const Weather = ({ open, onClose })=>{
                                 color: "secondary"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                                lineNumber: 123,
+                                lineNumber: 124,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -397,13 +398,13 @@ const Weather = ({ open, onClose })=>{
                                 children: "Loading forecast..."
                             }, void 0, false, {
                                 fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                                lineNumber: 124,
+                                lineNumber: 125,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                        lineNumber: 122,
+                        lineNumber: 123,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                         sx: {
@@ -435,7 +436,7 @@ const Weather = ({ open, onClose })=>{
                                         children: day.date
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 147,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -452,7 +453,7 @@ const Weather = ({ open, onClose })=>{
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                                        lineNumber: 154,
+                                        lineNumber: 155,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -467,18 +468,18 @@ const Weather = ({ open, onClose })=>{
                                         children: day.message
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 162,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                                lineNumber: 131,
+                                lineNumber: 132,
                                 columnNumber: 17
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/components/header/Weather/Weather.tsx",
-                        lineNumber: 129,
+                        lineNumber: 130,
                         columnNumber: 13
                     }, this)
                 ]

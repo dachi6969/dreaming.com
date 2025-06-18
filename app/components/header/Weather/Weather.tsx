@@ -98,6 +98,7 @@ const Weather: React.FC<WeatherProps> = ({ open, onClose }) => {
             backgroundImage: 'url("rainy.jpg")',
             backgroundSize: "cover",
             backgroundPosition: "center",
+            scrollbarWidth: "none"
           }}
         >
           <Button
