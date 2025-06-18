@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Typography, Link, Stack, IconButton } from "@mui/material";
+import { Box, Typography, Link, Stack } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 

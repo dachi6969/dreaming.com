@@ -23,17 +23,17 @@ interface ForecastDay {
   color: string;
 }
 
+const emojis = {
+  hot: "☀️",
+  warm: "🌤️",
+  cold: "❄️",
+};
+
 const Weather: React.FC<WeatherProps> = ({ open, onClose }) => {
   const [loading, setLoading] = useState(true);
   const [forecast, setForecast] = useState<ForecastDay[]>([]);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
-
-  const emojis = {
-    hot: "☀️",
-    warm: "🌤️",
-    cold: "❄️",
-  };
 
   useEffect(() => {
     if (open) {

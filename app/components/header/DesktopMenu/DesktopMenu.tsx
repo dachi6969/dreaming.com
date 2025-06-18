@@ -31,7 +31,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({ menu, onMenuClick }) => {
             {item.label}
           </Link>
         ) : (
-          <a
+          <Link
             key={i}
             href="/"
             className={styles.menuLink}
@@ -41,7 +41,7 @@ const DesktopMenu: React.FC<DesktopMenuProps> = ({ menu, onMenuClick }) => {
             }}
           >
             {item.label}
-          </a>
+          </Link>
         );
       })}
     </Box>

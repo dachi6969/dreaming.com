@@ -18,7 +18,7 @@ export default function CartLayout({ children }: { children: React.ReactNode }) 
         paddingTop: "20px" }}>
 
         <Typography sx={{ pt: 2 }}>
-          🛒 Your Choosen Flower's Cart
+         🛒 Your Choosen Flower&apos;s Cart
         </Typography>
         
       </footer>
