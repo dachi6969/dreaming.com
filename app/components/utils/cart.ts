@@ -21,7 +21,7 @@ export const saveCart = (cart: Flower[]) => {
 export const addToCart = (item: { nameEN: string; nameKA: string; price: number; img: string }) => {
   const cart = JSON.parse(localStorage.getItem("cart") || "[]");
 
-  const existingItem = cart.find((f: any) => f.nameEN === item.nameEN);
+  const existingItem = cart.find((f: Flower) => f.nameEN === item.nameEN);
 
   if (existingItem) {
     existingItem.quantity += 1;
