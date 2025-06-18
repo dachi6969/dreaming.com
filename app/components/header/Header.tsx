@@ -69,7 +69,7 @@ const Header = () => {
                 display: "inline-block",
               }}
             >
-              NK's Flowers
+              NK&apos;s Flowers
             </a>
           </Box>
         </Link>
@@ -90,7 +90,7 @@ const Header = () => {
             letterSpacing={3}
             sx={{ fontFamily: "cursive", fontSize: "2rem" }}
           >
-            NK's Flowers
+            NK&apos;s Flowers
           </Box>
         </Link>
       </Box>
