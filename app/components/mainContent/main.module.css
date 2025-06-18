@@ -1,0 +1,12 @@
+.main {
+    background-color: rgba(255, 255, 255, 0.524);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: center;
+    gap: 16px;
+    scrollbar-width: none;
+    padding: 16px;
+    height: 600px;
+}

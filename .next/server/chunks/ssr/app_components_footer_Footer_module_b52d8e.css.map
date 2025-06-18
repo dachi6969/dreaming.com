@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/components/footer/Footer.module.css"],"sourcesContent":[".footer {\n    margin-top: auto;\n    background-image: url(\"/foni.jpg\");\n    background-position: left;\n    background-size: cover;\n    background-repeat: no-repeat;\n    color: #880e4f;\n    padding: 40px 16px;\n    text-align: center;\n  }\n  \n  .title {\n    color: black;\n    font-weight: 700;\n    font-family: serif;\n    letter-spacing: 2px;\n  }\n  \n  .link {\n    gap: 8px;\n    height: 20px;\n    padding-top: 16px;\n    font-size: 40px;\n    color: black;\n    text-decoration: none;\n  }\n  \n  .instagramIcon {\n    font-size: 60px;\n    padding: 8px;\n  }\n  \n  .locationLink {\n    display: flex;\n    align-items: center;\n    flex-direction: column;\n    gap: 8px;\n    padding-top: 16px;\n    color: black;\n    text-decoration: none;\n  }\n  \n  .locationIcon {\n    font-size: 70px;\n    padding: 8px;\n  }\n  \n  .mapWrapper {\n    display: flex;\n    justify-content: center;\n  }\n  \n  .iframe {\n    border: 0;\n    width: 250px;\n    height: 250px;\n  }\n  "],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWE;;;;;;;AAOA;;;;;;;;;AASA;;;;;AAKA;;;;;;;;;;AAUA;;;;;AAKA;;;;;AAKA"}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

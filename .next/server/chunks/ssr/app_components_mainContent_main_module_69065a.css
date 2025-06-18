@@ -1,0 +1,17 @@
+/* [project]/app/components/mainContent/main.module.css [app-client] (css) */
+.main-module__O2cyeG__main {
+  background-color: #ffffff86;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  justify-content: center;
+  gap: 16px;
+  scrollbar-width: none;
+  padding: 16px;
+  height: 500px;
+  color: #ad9affc5;
+}
+
+
+/*# sourceMappingURL=app_components_mainContent_main_module_69065a.css.map*/

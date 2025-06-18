@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/dachi/Desktop/dreaming.com/app/cart/layout.tsx"],"sourcesContent":["import React from \"react\";\n\nexport default function CartLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <div style={{ minHeight: \"100vh\", display: \"flex\", flexDirection: \"column\" }}>\n      {/* Main content area */}\n      <main style={{ flexGrow: 1, padding: \"1rem\" }}>\n        {children}\n      </main>\n\n      {/* Simple footer */}\n      <footer style={{ textAlign: \"center\", padding: \"1rem\", borderTop: \"1px solid #ddd\" }}>\n        <p>🛒 Your Flower Shop Cart Footer</p>\n      </footer>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAI,OAAO;YAAE,WAAW;YAAS,SAAS;YAAQ,eAAe;QAAS;;0BAEzE,8OAAC;gBAAK,OAAO;oBAAE,UAAU;oBAAG,SAAS;gBAAO;0BACzC;;;;;;0BAIH,8OAAC;gBAAO,OAAO;oBAAE,WAAW;oBAAU,SAAS;oBAAQ,WAAW;gBAAiB;0BACjF,cAAA,8OAAC;8BAAE;;;;;;;;;;;;;;;;;AAIX"}},
+    {"offset": {"line": 56, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

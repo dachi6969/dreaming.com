@@ -1,0 +1,60 @@
+/* [project]/app/components/footer/Footer.module.css [app-client] (css) */
+.Footer-module__5K0E9a__footer {
+  margin-top: auto;
+  background-image: url("/foni.jpg");
+  background-position: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #880e4f;
+  padding: 40px 16px;
+  text-align: center;
+}
+
+.Footer-module__5K0E9a__title {
+  color: #000;
+  font-weight: 700;
+  font-family: serif;
+  letter-spacing: 2px;
+}
+
+.Footer-module__5K0E9a__link {
+  gap: 8px;
+  height: 20px;
+  padding-top: 16px;
+  font-size: 40px;
+  color: #000;
+  text-decoration: none;
+}
+
+.Footer-module__5K0E9a__instagramIcon {
+  font-size: 60px;
+  padding: 8px;
+}
+
+.Footer-module__5K0E9a__locationLink {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.Footer-module__5K0E9a__locationIcon {
+  font-size: 70px;
+  padding: 8px;
+}
+
+.Footer-module__5K0E9a__mapWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-module__5K0E9a__iframe {
+  border: 0;
+  width: 250px;
+  height: 250px;
+}
+
+/*# sourceMappingURL=app_components_footer_Footer_module_b52d8e.css.map*/

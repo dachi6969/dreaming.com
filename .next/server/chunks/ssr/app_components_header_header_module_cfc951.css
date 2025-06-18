@@ -1,0 +1,73 @@
+/* [project]/app/components/header/header.module.css [app-client] (css) */
+.header-module__bAz-Na__header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #fff8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  z-index: 1100;
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.header-module__bAz-Na__logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Cursive";
+  color: #ffdabede;
+}
+
+.header-module__bAz-Na__nav {
+  display: flex;
+  gap: 30px;
+}
+
+.header-module__bAz-Na__nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: color .3s;
+}
+
+.header-module__bAz-Na__nav a:hover {
+  color: #b04174;
+}
+
+.header-module__bAz-Na__cartBtn {
+  border-color: #b04174 !important;
+  color: #b04174 !important;
+}
+
+.header-module__bAz-Na__menuLink {
+  position: relative;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  padding: 8px;
+  transition: color .3s;
+}
+
+.header-module__bAz-Na__menuLink:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ff4080cb;
+  transition: width .3s;
+}
+
+.header-module__bAz-Na__menuLink:hover {
+  color: #ff4081;
+}
+
+.header-module__bAz-Na__menuLink:hover:after {
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=app_components_header_header_module_cfc951.css.map*/

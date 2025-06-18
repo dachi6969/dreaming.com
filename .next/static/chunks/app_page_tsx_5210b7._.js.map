@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/dachi/Desktop/dreaming.com/app/page.tsx"],"sourcesContent":["\"use client\"\nimport { Box, Button, Grid, InputBase, Modal, styled, Typography,} from \"@mui/material\";\nimport styles from \"./page.module.css\"\nimport { useState } from \"react\";\nimport Header from \"./components/header/firstContent\";\n\n\n\nexport default function Home() {\n\n  return (\n    <Grid container >\n\n      <Grid item xs={12} >\n        <Header />\n      </Grid>\n\n      <Grid item xs={9} sx={{height:\"700px\",m: \"0 auto\",border:\"1px solid black\"}}>\n         ...main content\n      </Grid>\n    </Grid>\n\n    \n  );\n}\n"],"names":[],"mappings":";;;;;;;;;AACA;AADA;;;;AAQe,SAAS;IAEtB,qBACE,6LAAC,uLAAA,CAAA,OAAI;QAAC,SAAS;;0BAEb,6LAAC,uLAAA,CAAA,OAAI;gBAAC,IAAI;gBAAC,IAAI;0BACb,cAAA,6LAAC;;;;;;;;;;0BAGH,6LAAC,uLAAA,CAAA,OAAI;gBAAC,IAAI;gBAAC,IAAI;gBAAG,IAAI;oBAAC,QAAO;oBAAQ,GAAG;oBAAS,QAAO;gBAAiB;0BAAG;;;;;;;;;;;;AAOnF;KAhBwB"}},
+    {"offset": {"line": 65, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

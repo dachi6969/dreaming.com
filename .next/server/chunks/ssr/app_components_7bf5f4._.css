@@ -1,0 +1,179 @@
+/* [project]/app/components/mainContent/main.module.css [app-client] (css) */
+.main-module__O2cyeG__main {
+  background-color: #ffffff86;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  justify-content: center;
+  gap: 16px;
+  scrollbar-width: none;
+  padding: 16px;
+  height: 600px;
+}
+
+
+/* [project]/app/components/friendlyMsg/message.module.css [app-client] (css) */
+.message-module__6aoAPW__firstBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #ffd6ba 0%, #fff5ba 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__secondBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #fce8f5 0%, #e6d0f8 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__thirdBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #f7d6e0 0%, #fff6e5 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__fourthBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #cde7f0 0%, #d4f1be 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__fifthBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #c4ffb5ec 0%, #1db1de 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+
+/* [project]/app/components/filter/Filter.module.css [app-client] (css) */
+.Filter-module__-GpE8a__container {
+  width: 100%;
+  height: 60px;
+  padding-top: 24px;
+  gap: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.Filter-module__-GpE8a__container::-webkit-scrollbar {
+  display: none;
+}
+
+.Filter-module__-GpE8a__promotions {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Filter-module__-GpE8a__selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Filter-module__-GpE8a__currencyBtn {
+  height: 40px;
+  border-radius: 16px;
+  background-color: #fce4ec;
+}
+
+.Filter-module__-GpE8a__currencyBtn:hover {
+  background-color: #fce4ec;
+}
+
+.Filter-module__-GpE8a__currencyText {
+  font-weight: bold;
+  color: #d81b60;
+  font-size: 15px;
+  width: 35px;
+  padding-left: 8px;
+  padding: 8px;
+}
+
+.Filter-module__-GpE8a__currencyIcon {
+  color: #d81b60;
+  font-size: 40px;
+  padding: 8px;
+}
+
+.Filter-module__-GpE8a__flagBtn {
+  height: 40px;
+  border-radius: 16px;
+  padding-top: 12px;
+  background-color: #fce4ec;
+}
+
+.Filter-module__-GpE8a__flagBtn:hover {
+  background-color: #fce4ec;
+}
+
+.Filter-module__-GpE8a__flagAvatar {
+  width: 48px;
+  height: 58px;
+  padding: 8px;
+  margin-left: 8px;
+}
+
+.Filter-module__-GpE8a__flagIcon {
+  color: #d81b60;
+  font-size: 50px;
+  width: 25px;
+}
+
+
+/*# sourceMappingURL=app_components_7bf5f4._.css.map*/

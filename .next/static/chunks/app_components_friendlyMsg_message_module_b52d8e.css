@@ -1,0 +1,82 @@
+/* [project]/app/components/friendlyMsg/message.module.css [app-client] (css) */
+.message-module__6aoAPW__firstBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #ffd6ba 0%, #fff5ba 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__secondBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #fce8f5 0%, #e6d0f8 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__thirdBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #f7d6e0 0%, #fff6e5 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__fourthBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #cde7f0 0%, #d4f1be 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.message-module__6aoAPW__fifthBox {
+  width: 330px;
+  height: 170px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 8px;
+  padding-right: 16px;
+  color: #000;
+  background: linear-gradient(135deg, #c4ffb5ec 0%, #1db1de 100%);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+/*# sourceMappingURL=app_components_friendlyMsg_message_module_b52d8e.css.map*/

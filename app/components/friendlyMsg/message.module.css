@@ -1,0 +1,76 @@
+.firstBox {
+    width: 330px;
+    height: 170px;
+    border-radius: 16px; 
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    padding-left: 8px;
+    padding-right: 16px;
+    color: black;
+    background: linear-gradient(135deg, #FFD6BA 0%, #FFF5BA 100%);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16); 
+  }
+
+.secondBox {
+    width: 330px;
+    height: 170px;
+    border-radius: 16px; 
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    padding-left: 8px;
+    padding-right: 16px;
+    color: black;
+    background: linear-gradient(135deg, #FCE8F5 0%, #E6D0F8 100%);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16); 
+}
+.thirdBox {
+    width: 330px;
+    height: 170px;
+    border-radius: 16px; 
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    padding-left: 8px;
+    padding-right: 16px;
+    color: black;
+    background: linear-gradient(135deg, #F7D6E0 0%, #FFF6E5 100%);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16); 
+}
+.fourthBox {
+    width: 330px;
+    height: 170px;
+    border-radius: 16px; 
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding-left: 8px;
+    padding-right: 16px;
+    color: black;
+    background: linear-gradient(135deg, #CDE7F0 0%, #D4F1BE 100%);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16); 
+}
+.fifthBox {
+    width: 330px;
+    height: 170px;
+    border-radius: 16px; 
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    padding-left: 8px;
+    padding-right: 16px;
+    color: black;
+    background: linear-gradient(135deg, rgba(196, 255, 181, 0.925) 0%, #1db1de 100%);
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16); 
+}
